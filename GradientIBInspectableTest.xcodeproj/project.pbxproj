@@ -14,6 +14,7 @@
 		1A9A9DB51B8FAD4F00F6EF1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A9A9DB31B8FAD4F00F6EF1F /* LaunchScreen.storyboard */; };
 		1A9A9DC01B8FAD5000F6EF1F /* GradientIBInspectableTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A9DBF1B8FAD5000F6EF1F /* GradientIBInspectableTestTests.swift */; };
 		1A9A9DCB1B8FAD5000F6EF1F /* GradientIBInspectableTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A9DCA1B8FAD5000F6EF1F /* GradientIBInspectableTestUITests.swift */; };
+		1A9A9DD91B8FADA800F6EF1F /* GradientInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A9DD81B8FADA800F6EF1F /* GradientInspectable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1A9A9DC61B8FAD5000F6EF1F /* GradientIBInspectableTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradientIBInspectableTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A9A9DCA1B8FAD5000F6EF1F /* GradientIBInspectableTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientIBInspectableTestUITests.swift; sourceTree = "<group>"; };
 		1A9A9DCC1B8FAD5000F6EF1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A9A9DD81B8FADA800F6EF1F /* GradientInspectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientInspectable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		1A9A9DA91B8FAD4F00F6EF1F /* GradientIBInspectableTest */ = {
 			isa = PBXGroup;
 			children = (
+				1A9A9DD81B8FADA800F6EF1F /* GradientInspectable.swift */,
 				1A9A9DAA1B8FAD4F00F6EF1F /* AppDelegate.swift */,
 				1A9A9DAC1B8FAD4F00F6EF1F /* ViewController.swift */,
 				1A9A9DAE1B8FAD4F00F6EF1F /* Main.storyboard */,
@@ -257,6 +260,7 @@
 			files = (
 				1A9A9DAD1B8FAD4F00F6EF1F /* ViewController.swift in Sources */,
 				1A9A9DAB1B8FAD4F00F6EF1F /* AppDelegate.swift in Sources */,
+				1A9A9DD91B8FADA800F6EF1F /* GradientInspectable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
